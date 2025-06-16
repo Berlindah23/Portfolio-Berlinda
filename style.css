@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 100px;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.titre-section {
+    text-align: center;
+    color: #00d9ff;
+    font-size: 28px;
+    margin: 30px;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px 40px;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #00d9ff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+nav {
+    flex: 1;
+}
+
+nav a {
+    color: #00d9ff;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    scroll-margin-top: 100px;
+}
+
+#accueil {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#accueil img {
+    max-width: 400px;
+    width: 100%;
+}
+
+.intro {
+    flex: 1;
+}
+
+.btn {
+    background-color: #00d9ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.btn-projet {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #00d9ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#apropos .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#apropos .texte {
+    flex: 1;
+}
+
+#apropos .photo img {
+    border-radius: 50%;
+    width: 200px;
+    border: 4px solid #00d9ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.projets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.carte {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.skills .bloc {
+    flex: 1;
+    min-width: 250px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills .li {
+    margin-bottom: 15px;
+}
+
+.barre {
+    background-color: #00d9ff;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 0;
+    transition: width 1.2s ease-out;
+}
+
+#contact {
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+#contact a {
+    color: #00d9ff;
+    text-decoration: underline;
+}
+
+.contact-wrapper {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #00d9ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-content {
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    font-size: 14px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    #accueil {
+        flex-direction: column;
+        text-align: center;
+    }
+    #apropos .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #apropos .photo {
+        text-align: center;
+    }
+
+    .container-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.titre-section {
+    text-align: center;
+    color: #00d9ff;
+    font-size: 28px;
+    margin: 30px;
+}
+
+
+
+
+

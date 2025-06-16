@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - HOUEGBEME Berlinda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="logo">HOUEGBEME <span>Berlinda</span></div>
+            <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">A propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <section id="accueil">
+        <div class="intro">
+            <h2>Je suis <span>Berlinda</span>, Développeur en devenir passionnée par le web et le design</h2>
+            <a href="#projets" class="btn">Voir mes projets</a>
+        </div>
+        <img src="illustration.png" alt="illustration développeur">
+    </section>
+
+    <section id="apropos">
+        <h2 class="titre-section">A propos</h2>
+        <div class="content">
+            <div class="texte">
+                <p>Je m'appelle <strong>Berlinda</strong>, biologiste généticienne passionnée par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiante en développement web, et je cherche à améliorer mes coompétences HTML, CSS et JavaScript.</p>
+                <p>Je souhaite transformer mes idées en projets concrets et apprendre toujours plus sur les nouvelles technologies.</p>
+                <a href="cv_berlibda.pdf" class="btn" download>Télécharger mon CV</a>
+            </div>
+            <div class="photo">
+                <img src="profil.jpg" alt="Photo de Berlinda">
+            </div>
+        </div>
+    </section>
+
+    <section id="projets">
+        <h2 class="titre-section">Mes projets</h2>
+        <div class="projets">
+            <div class="carte">
+                <h3>Concepts HTML</h3>
+                <P>Pratique des balises HTML pour structurer les pages web.</P>
+                <a href="projet1.html" class="btn-projet" target="_blank">Voir</a>
+            </div>
+            <div class="carte">
+                <h3>Feuilles de styles</h3>
+                <p>Mise en forme et personnalisation avec CSS.</p>
+                <a href="projet2.html" class="btn-projet" target="_blank">Voir</a>
+            </div>
+            <div class="carte">
+                <h3>Scripts JavaScript</h3>
+                <p>Ecriture et intégration de scripts JavaScript simples dans HTML.</p>
+                <a href="projet3.html" class="btn-projet" target="_blank">Voir</a>
+            </div>
+            <div class="carte">
+                <h3>Objets JavaScript</h3>
+                <p>Utilisation des objets standards pour rendre les pages interactives.</p>
+                <a href="projet4.html" class="btn-projet" target="_blank">Voir</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences">
+        <h2 class="titre-section">Mes compétences</h2>
+        <div class="skills">
+            <div class="bloc">
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>HTML <div class="barre html" data-width="90%"></div></li>
+                    <li>css <div class="barre css" data-width="80%"></div></li>
+                    <li>JavaScript <div class="barre js" data-width="70%"></div></li>
+                    <li>VS Code <div class="barre vscode" data-width="95%"></div></li>
+                </ul>
+            </div>
+            <div class="bloc">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Esprit analytique <div class="barre moyenne" data-width="650%"></div></li>
+                    <li>Créativité <div class="barre bonne" data-width="80%"></div></li>
+                    <li>Adaptabilité <div class="barre excellente" data-width="95%"></div></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="titre-section">Vous avez un projet en tête ?</h2>
+        <div class="contact-wrapper">
+            <p>N'hésitez pas à <strong>me contacter</strong> :</p>
+        <form id="form-contact">
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="votre message..." required></textarea>
+            <button type="submit">Envoyer</button>
+            <p id="confirmation" style="display:none; color:lightgreen; margin-top:10px;">
+                Merci pour votre message !
+            </p>
+        </form>
+        <p>Email : <a href="mailto:berlindahouegbeme@gmail.com">berlindahouegbeme@gmail.com</a></p>
+        </div>
+        
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <p>Designed by HOUEGBEME Berlinda with HTML CSS JS</p>
+            <p class="droits">Tous droits réservés - 2025</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
